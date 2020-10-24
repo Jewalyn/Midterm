@@ -1,15 +1,3 @@
-@font-face{
-  font-family:"Odachi";
-  scr: url("Odachi 400.otf");
-}
-@font-face{
-  fon-family:"NoirRegular";
-  src: url("NoirStd-Regular.ttf");
-}
-@font-face{
-  font-family:"NoirBold";
-  src: url("NoirPro-Bold.ttf");
-}
 html{
   box-sizing: border-box;
   margin: 0;
