@@ -1,3 +1,15 @@
+@font-face{
+  font-family:"Odachi";
+  scr: url("Odachi 400.otf");
+}
+@font-face{
+  fon-family:"NoirRegular";
+  src: url("NoirStd-Regular.ttf");
+}
+@font-face{
+  font-family:"NoirBold";
+  src: url("NoirPro-Bold.ttf");
+}
 html{
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +17,7 @@ html{
   height: 100%;
 }
 .body1{
-  background-image: url("falls.jpg.png");
+  background-image: url("falls.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,14 +25,14 @@ html{
   height: 100%;
 }
 .body2{
-  background-image:url(cloud.png),url(place.png);
+  background-image:url("city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 .body3{
-  background-image: url("bundok.jpg.png");
+  background-image: url("bundok.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
