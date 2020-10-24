@@ -1,0 +1,181 @@
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.shakira1{
+  background-image: url("falls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  height: 100%;
+}
+.shakira2{
+  background-image: url("city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.shakira3{
+  background-image: url("bundok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+li, a{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Regular 800.otf");
+
+}
+header{
+  background-color: #015668;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 5%;
+} 
+.logo{
+  margin-right: auto;
+  cursor: pointer;
+  font-family: "Odachi";
+  font-size: 30px;
+}
+.nav_link{
+  list-style: none;
+}
+.nav_link li{
+  display: inline-block;
+  padding: 0px 50px;
+}
+.nav_link li a:hover {
+  color: black;
+}
+.nav_link li a{
+  transition: all 0.3s ease 0s;
+}
+.taguro1{
+   text-align: center;
+   font-size: 30px;
+   color: white;
+}
+.textA{
+   text-decoration: none;
+   font-family: "Noir";
+   src: url("Medium 500.otf");
+   padding: 50px;
+   text-shhadow: 2px 2px black;
+}
+.textB{
+   font-family: "Noir";
+   text-shadow: 2px 2px black;
+}
+.butones{
+  width: auto;
+  padding: 10px 18px;
+  background-color: #015668;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+button:hover{
+  background-color: black;
+}
+.taguro2{
+   text-align: left;
+   font-size: 30px;
+   padding: 200px 4%;
+   margin: auto;
+   color: #ffd369;
+}
+.textC{
+   font-weight: bold;
+   text-shadow: 2px 2px black;
+   text-decoration: underline;
+}
+.textD{
+   text-shadow: 2px 2px black;
+}
+.box{
+  width: 300px;
+  text-align: center;
+  background: rgba(2, 54, 133, 0.411);
+  padding: 20px;
+  margin: 8% auto 0;
+  font-size: 16px;
+  color: #ffd369;;
+}
+input[type=text]{
+  width: 80%;
+  padding: 5px 5%;
+  display: inline-block;
+  border: 1px solid #cccccc;
+}
+.taguro3{
+   text-align: center;
+   background-image: url("cloud.jpg");
+   background-size: cover;
+   padding: 10px;
+ 
+   font-family: "Noir";
+   src: url("Medium 500.otf");
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+}
+.textE{
+   text-shadow: 1px 1px black;
+}
+.textF{
+   text-shadow:2px 2px black;
+}
+.box1{
+  width: 300px;
+  text-align: justify;
+  background: rgba(52, 15, 185, 0.1);
+  box-shadow: 5px 10px;
+  padding: 20px;
+  margin: 1% auto 0;
+  font-size: 16px;
+  color: black;
+  left: 5%;
+  position: absolute;
+}
+.open1{
+  text-align: center;
+}
+.box2{
+  width: 300px;
+  text-align: justify;
+  background: rgba(52, 15, 185, 0.1);
+  box-shadow: 5px 10px;
+  padding: 20px;
+  margin: 1% auto 0;
+  font-size: 16px;
+  color: black;
+  left: 40%;
+  position: absolute;
+}
+.box3{
+  width: 300px;
+  text-align: justify;
+  background: rgba(52, 15, 185, 0.1);
+  box-shadow: 5px 10px;
+  padding: 20px;
+  margin: 1% auto 0;
+  font-size: 16px;
+  color: black;
+  right: 5%;
+  position: absolute;
+}
+.contactp{
+   font-size: 18px;
+   text-shadow: 1px 1px black;
+}
